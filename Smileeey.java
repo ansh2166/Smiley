@@ -149,4 +149,8 @@ public class Smileeey extends AndroidNonvisibleComponent {
     public int Terrible(){
     return 1;
     } 
+    @SimpleFunction
+    public void Reset(){
+    smileyRating.resetSmiley();
+    }
 }
